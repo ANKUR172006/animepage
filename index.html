@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiyan Soul</title>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css">
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <!-- ==================== MAIN CONTENT (Behind Loader) ==================== -->
+    <main>
+        <div class="back">
+ <img src="tanjiro-kamado-red-5120x2880-22577.png" alt="">
+ <img src="frieza-dragon-ball-3840x2160-18686.jpg" alt="">
+ <img src="angry-vegeta-dragon-5120x2880-17596.jpg" alt="">
+ <img src="naruto-uzumaki-5120x2880-22818.jpg" alt="">
+ <img src="super-saiyan-god-goku-dragon-ball-super-5k-5760x3240-5125.jpg" alt="">
+        </div>
+        <div class="top">
+            <div class="workingarea">
+                <nav>
+                    <div class="navleft">
+                        <img src="raybanlogo.png" alt="">
+                        <a href="PRODUCTS">PRODUCTS</a>
+                        <a href="about.html">ABOUT</a>
+                    </div>
+                    <div class="navright">
+                        <a href="contacts.html">CONTACT</a>
+                        <a href="CART">CART</a>
+                    </div>
+                </nav>
+                <div class="hero">
+                    <div class="heroleft">
+                        <div class="elm">
+                            <h1>calm mind</h1>
+                            <h1>i destroy</h1>
+                            <h1>No mercy</h1>
+                            <h1>wo souls</h1>
+                            <h1>Divine power</h1>
+                        </div>
+                        <div class="elm">
+                            <h1>unstoppable body</h1>
+                            <h1>worlds just</h1>
+                            <h1>only strength</h1>
+                            <h1>still a</h1>
+                            <h1>no apologies</h1>
+                        </div>
+                        <div class="elm">
+                            <h1>endless power.</h1>
+                            <h1>for fun.</h1>
+                            <h1>and honor.</h1>
+                            <h1>warrior stands</h1>
+                            <h1>Saiyan's soul.</h1>
+                        </div>
+                     <button>Explore now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ==================== LOADER OVERLAY (On Top) ==================== -->
+    <div id="loader-overlay">
+        <!-- Video Background for Initial Screen -->
+        <div class="video-container" id="videoContainer">
+            <video id="mainVideo" autoplay muted playsinline loop>
+                <source src="itachi-uchiha.3840x2160.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Video Background for Loading Screen -->
+        <div class="video-container" id="loadingVideoContainer">
+            <video id="loadingVideo" autoplay muted playsinline loop>
+                <source src="173104-848555587.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="loader-content">
+            <button class="start-btn" id="startBtn">START</button>
+            
+            <div class="loading-container" id="loadingContainer">
+                <div class="spinner"></div>
+                <div class="loading-text">Loading...</div>
+                <div class="percentage" id="percentage">0%</div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== AUDIO ELEMENT ==================== -->
+  <audio id="loadingAudio" preload="metadata" loop crossorigin="anonymous">
+  <source src="loading.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.157.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
